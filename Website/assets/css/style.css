@@ -424,13 +424,14 @@ h1, h2, h3, h4, h5, h6 {
   background: #1C1C1E;
   border-radius: var(--radius-iphone);
   padding: 12px;
-  box-shadow: var(--shadow-xl), 0 0 0 2px #3A3A3C, 0 0 0 6px #2C2C2E;
+  box-shadow: 0 0 60px -10px rgba(0, 122, 255, 0.45), 0 0 120px -20px rgba(0, 122, 255, 0.25), 0 0 0 2px #3A3A3C, 0 0 0 6px #2C2C2E;
   overflow: hidden;
-  transition: transform var(--transition-smooth);
+  transition: transform var(--transition-smooth), box-shadow var(--transition-smooth);
 }
 
 .iphone-frame:hover {
   transform: translateY(-8px) rotateX(2deg);
+  box-shadow: 0 0 80px -5px rgba(0, 122, 255, 0.65), 0 0 160px -15px rgba(0, 122, 255, 0.35), 0 0 0 2px #4A4A4C, 0 0 0 6px #3C3C3E;
 }
 
 .dynamic-island {
@@ -609,11 +610,17 @@ h1, h2, h3, h4, h5, h6 {
   background: #1C1C1E;
   border-radius: 36px;
   padding: 8px;
-  box-shadow: var(--shadow-md), 0 0 0 1px var(--card-border);
+  box-shadow: 0 0 45px -10px rgba(0, 122, 255, 0.4), 0 0 90px -20px rgba(0, 122, 255, 0.2), 0 0 0 2px #3A3A3C, 0 0 0 5px #2C2C2E;
   position: relative;
   overflow: hidden;
   cursor: grab;
   user-select: none;
+  transition: transform var(--transition-smooth), box-shadow var(--transition-smooth);
+}
+
+.carousel-slide:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 65px -5px rgba(0, 122, 255, 0.6), 0 0 130px -15px rgba(0, 122, 255, 0.3), 0 0 0 2px #4A4A4C, 0 0 0 5px #3C3C3E;
 }
 
 .carousel-slide:active {

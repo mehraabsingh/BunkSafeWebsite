@@ -52,7 +52,7 @@ Currently, the HTML files use standard placeholder strings that you can replace 
 
 2. **Support Email**: Do a global find-and-replace for:
    ```
-   support@YOURDOMAIN.com
+   work.mehraab@gmail.com
    ```
    Replace it with your real customer support email address (e.g., `support@bunksafe.app`).
 
