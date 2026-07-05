@@ -1,0 +1,22 @@
+{
+  "name": "BunkSafe — Attendance, Simplified.",
+  "short_name": "BunkSafe",
+  "description": "Smart attendance tracking and academic semester exam planner for college and university students.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#007AFF",
+  "icons": [
+    {
+      "src": "assets/icons/favicon.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/app-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
