@@ -46,7 +46,7 @@ Currently, the HTML files use standard placeholder strings that you can replace 
 
 1. **App Store URL**: Do a global find-and-replace across all `.html` files for:
    ```
-   https://apps.apple.com/app/idYOUR_APP_ID
+   https://apps.apple.com/us/app/bunksafe/id6787505960
    ```
    Replace it with your actual Apple App Store app link (e.g., `https://apps.apple.com/app/id1234567890`).
 
